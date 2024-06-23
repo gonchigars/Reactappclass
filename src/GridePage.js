@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import axios from "axios";
 
 const drawerWidth = 180; // Ensure this matches the width of your drawer
-const TMDB_API_KEY = "49a5508b99e54cbf67438655e1565e32";
+const TMDB_API_KEY = "";
 
 export default function GridPage() {
   const [movies, setMovies] = useState([]);
